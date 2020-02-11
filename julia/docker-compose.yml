@@ -1,0 +1,7 @@
+version: '3'
+services:
+    julia:
+        build: .
+        network_mode: host
+        volumes:
+            - .:/code
